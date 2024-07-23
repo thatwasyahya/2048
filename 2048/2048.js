@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (times === 1) newGrid[j][3 - i] = grid[i][j];
                     if (times === 2) newGrid[3 - i][3 - j] = grid[i][j];
                     if (times === 3) newGrid[3 - j][i] = grid[i][j];
+                    if (times === 0) newGrid[i][j] = grid[i][j];
                 }
             }
             return newGrid;
@@ -116,10 +117,10 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', (event) => {
         switch (event.key) {
             case 'ArrowUp':
-                move('up');
+                move('down');
                 break;
             case 'ArrowDown':
-                move('down');
+                move('up');
                 break;
             case 'ArrowLeft':
                 move('left');
