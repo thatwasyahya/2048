@@ -14,7 +14,7 @@ This is a simple implementation of the popular 2048 game. The goal of the game i
 
 ## Demo
 
-You can see a live demo of the game [here](#).
+You can see a live demo of the game [here](https://thatwasyahya.github.io/2048/).
 
 ## Features
 
@@ -38,7 +38,7 @@ You can see a live demo of the game [here](#).
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/2048-game.git
+    git clone https://github.com/thatwasyahya/2048.git
     ```
 
 2. Navigate to the project directory:
